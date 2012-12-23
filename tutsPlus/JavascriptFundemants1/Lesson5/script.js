@@ -11,8 +11,8 @@ var globalFunction = function (paramOne) {
 
     localFunction();
     alert(localVar);
-    // alert(superLocalVar);
+    // alert(superLocalVar);  Console has only one error at at time
 };
 
-alert(superLocalVar);
+// alert(superLocalVar);
 globalFunction(2);
